@@ -122,6 +122,16 @@ const Landing = () => {
                 <FaPrint />
                 <span className=" hidden md:block">Export CSV</span>
               </a>
+              <a
+                href="http://127.0.0.1:5002/"
+                target="_blank"
+                className="flex gap-1 items-center bg-slate-700 px-4 py-2 rounded-md"
+                rel="noopener noreferrer"
+             
+              >
+                <FaPrint />
+                <span className=" hidden md:block">Data Olah</span>
+              </a>
             </div>
           </div>
           {filteredData.length ? (
